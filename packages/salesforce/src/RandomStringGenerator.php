@@ -1,6 +1,6 @@
 <?php
 
-namespace code\salesforce;
+namespace Code\Salesforce;
 
 class RandomStringGenerator
 {
