@@ -1,0 +1,10 @@
+{
+    "name": "code/salesforce",
+    "description": "basic package to work with salesforce objects",
+    "autoload": {
+        "psr-4": {
+            "Code\\Salesforce\\": "src/"
+        }
+    },
+    "require": {}
+}
