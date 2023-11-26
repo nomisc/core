@@ -56,7 +56,7 @@
                 "Salesforce": "salesforce\\RandomStringGenerator"
             }
         }
-    }
+    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
