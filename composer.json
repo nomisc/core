@@ -49,9 +49,14 @@
     },
     "extra": {
         "laravel": {
-            "dont-discover": []
+            "providers": [
+                "salesforce\\SalesforceServiceProvider"
+            ],
+            "aliases": {
+                "Salesforce": "salesforce\\RandomStringGenerator"
+            }
         }
-    },
+    }
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",

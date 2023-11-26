@@ -2,23 +2,17 @@
 
 namespace Salesforce;
 
+use Code\Salesforce\RandomStringGenerator;
 use Illuminate\Support\ServiceProvider;
 
 class SalesforceServiceProvider extends ServiceProvider
 {
-    public function boot()
-    {
-     
-    }
 
     public function register()
     {
-     
+        $this->app->singleton(RandomStringGenerator::class, function ($app) {
+            return new RandomStringGenerator();
+        });
     }
 
-    public function provides()
-    {
-        // Indicate the service provided by this service provider
-        return ['salesforce'];
-    }
 }
