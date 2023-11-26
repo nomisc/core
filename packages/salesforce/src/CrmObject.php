@@ -19,7 +19,7 @@ abstract class CrmObject
     {
         $this->data = json_decode($jsonData, true);
         
-        $this->id = $this->data['id']; 
+        $this->id = $this->data['id'] ?? null ; 
 
     }
     
