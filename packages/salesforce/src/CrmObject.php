@@ -1,15 +1,11 @@
 <?php 
 
-// MyPackage/CrmObject.php
-
 namespace Code\Salesforce;
-
 
 enum ObjectType {
     case Account;
     case Lead;
 }
-
 
 abstract class CrmObject
 {
