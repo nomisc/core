@@ -43,7 +43,8 @@ return [
     */
 
     'aliases' => [
-        'Salesforce' => Salesforce\RandomStringGenerator::class,
+        'sfLead' => Salesforce\Lead::class,
+        'sfAccount' => Salesforce\Account::class        
     ],
 
 ];

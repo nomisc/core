@@ -53,7 +53,8 @@
                 "salesforce\\SalesforceServiceProvider"
             ],
             "aliases": {
-                "Salesforce": "salesforce\\RandomStringGenerator"
+                "sfLead": "salesforce\\Lead",
+                "sfAccount": "salesforce\\sfAccount"
             }
         }
     },
